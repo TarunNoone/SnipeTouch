@@ -1,0 +1,17 @@
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+* {
+    background-color: #333333;
+    color: antiquewhite;
+    font-family: Consolas, monospace;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    margin: 5px;
+    min-height: 50px;
+}
