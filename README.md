@@ -1,7 +1,13 @@
 # SnipeTouch
 
 Insipred by Taran Van Hemert's (Linus Tech Tips) macro keyboard video, I wanted to make something similar to help me code.
-First, I added just the code snippets. Later, I added webpages option, to open YouTube, etc.
+
+**Features:**
+* Type in code snippets
+* Open webpages
+* Open applications
+
+<img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img1.jpg?raw=true" alt="Screenshot1" height="400px"> <img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img2.jpg?raw=true" alt="Screenshot2" height="400px">
 
 ### How to use:
 After downloading the files, navigate to the folder containing "server.js" file and type in terminal:
@@ -29,7 +35,7 @@ To edit how the webpage looks, edit files in `public` folder.
   * NodeJS
     * Express
     * CORS
-    * Expree Rate Limit
+    * Express Rate Limit
     * Child Process
   * xdotool / python
     * For keyboard input
@@ -37,6 +43,7 @@ To edit how the webpage looks, edit files in `public` folder.
 **References:**
 
 * https://www.youtube.com/watch?v=Arn8ExQ2Gjg&t=42s
+* https://www.youtube.com/watch?v=JnEH9tYLxLk
 * https://www.youtube.com/watch?v=RTb1_8GWyCU
 
 * https://stackoverflow.com/questions/15825333/how-to-reload-current-page-in-express-js
