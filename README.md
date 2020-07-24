@@ -7,13 +7,22 @@
 
 <br><br>
 
-Insipred by Taran Van Hemert's (Linus Tech Tips) macro keyboard video, I wanted to make something similar to help me code.
+Insipred by Taran Van Hemert's (Linus Tech Tips) macro keyboard video, I wanted to make something similar to help me code, and here is the result.
 
-**Features:**
-* Type in code snippets
+## What is SnipeTouch?
+
+* SnipeTouch was intented to be a software that you can access from a second screen (or how many ever you need) that has buttons, which type in code snippets (on the primary device aka. the server).
+	
+* But the way it works is, the second screen sends commands to the server (primary device). The server then processes it, and executes it in a "shell". 
+  * So, once you have commands running in a shell, you can do pretty much anything you that you can, by directly being on the primary device.
+You can write scripts, run any software that you need. The possibilities are endless.
+
+* There is also folder structure, so you can organize your code snippets based on language, or any way you like.
+
+### What SnipeTouch can do out-of-the-box?
+* Type in code snippets and import statements
 * Open webpages
 * Open applications
-
 
 <img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img1.jpg?raw=true" alt="Screenshot1" height="400px">
 <br>
