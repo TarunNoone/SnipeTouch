@@ -23,12 +23,13 @@ app.get('/', (req, res) => {
 app.post('/secret', (req, res) => {
     // handle different kinds of actions
 
-    if(req.body.action == "snips") {
-        spawn('xdotool', ['type',  '--delay', '0', req.body.data]);
-        // spawn('python3', 'insertText.py', req.body.data]);
-    } else if(req.body.action == "webpages") {
+    if(req.body.type == 'text') {
+        spawn('xdotool', ['type',  '--delay', '0', req.body.data.toString()]);
+    } else if(req.body.type == 'url') {
         spawn('chromium', [req.body.data]);
-    } else if(req.body.action == "apps") {
+    } else if(req.body.type == 'import') {
+        spawn('xdotool', ['key', 'ctrl+Home', 'type', '--delay', '0', req.body.data]);
+    } else if(req.body.type == 'apps') {
         spawn(req.body.data);
     }
 
