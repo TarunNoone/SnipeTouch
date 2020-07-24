@@ -5,7 +5,7 @@
 * Moved `snippets.js` to `actionables.js`
 * Added `import` type. Import statements are added at the top of text field.
 
-<br><br>
+<br>
 
 Insipred by Taran Van Hemert's (Linus Tech Tips) macro keyboard video, I wanted to make something similar to help me code, and here is the result.
 
