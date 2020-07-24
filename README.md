@@ -17,7 +17,9 @@ Insipred by Taran Van Hemert's (Linus Tech Tips) macro keyboard video, I wanted 
 
 <img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img1.jpg?raw=true" alt="Screenshot1" height="400px">
 <br>
-<img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img2.jpg?raw=true" alt="Screenshot2" height="400px"><img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img3.jpg?raw=true" alt="Screenshot3" height="400px"><img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img4.jpg?raw=true" alt="Screenshot4" height="400px"><img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img5.jpg?raw=true" alt="Screenshot5" height="400px"> 
+<div>
+<img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img2.jpg?raw=true" alt="Screenshot2" height="400px"> <img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img3.jpg?raw=true" alt="Screenshot3" height="400px"> <img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img4.jpg?raw=true" alt="Screenshot4" height="400px"> <img src="https://github.com/TarunNoone/SnipeTouch/blob/master/images/img5.jpg?raw=true" alt="Screenshot5" height="400px"> 
+ </div>
 
 ### How to use:
 After downloading the files, navigate to the folder containing "server.js" file and type in terminal:
