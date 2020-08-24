@@ -1,5 +1,8 @@
 # SnipeTouch
 
+**Known Bugs**
+* Text passed to the server to open applications is not validated. Possible Shell Injection.
+
 **Update 1.0**
 * Added folder structure
 * Moved `snippets.js` to `actionables.js`
@@ -11,13 +14,17 @@ Insipred by Taran Van Hemert's (Linus Tech Tips) macro keyboard video, I wanted 
 
 ## What is SnipeTouch?
 
-* SnipeTouch was intented to be a software that you can access from a second screen (or how many ever you need) that has buttons, which type in code snippets (on the primary device aka. the server).
+* SnipeTouch was intented to be a software that you can access from a second screen (or how many ever you need) that has buttons, which type in code snippets (on the primary device).
+
+* By clicking a button on second screen, it triggers xdotool on the primary device, which types the selected text at the cursor location.
+  * It has a few python snippets pre-defined.
 	
 * But the way it works is, the second screen sends commands to the server (primary device). The server then processes it, and executes it in a "shell". 
-  * So, once you have commands running in a shell, you can do pretty much anything you that you can, by directly being on the primary device.
-You can write scripts, run any software that you need. The possibilities are endless.
+  * So, once you have commands running in a shell, you can do pretty much anything you that you can, by directly being on the primary device. You can write scripts, run any software that you need. The possibilities are endless.
+  * It has a few websites listed, which open in Chromium.
 
 * There is also folder structure, so you can organize your code snippets based on language, or any way you like.
+  *  
 
 ### What SnipeTouch can do out-of-the-box?
 * Type in code snippets and import statements
